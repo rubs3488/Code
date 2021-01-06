@@ -21,10 +21,8 @@ div.main{
 .h1-titel{
   font-size:3.5vw;
 }
-.main-body{
-  display: flex;
-  flex-direction: column;
-  flex:1;
+.some-page-wrapper{
+  margin-left: 10vw;
 }
 .row {
   display: flex;
@@ -42,7 +40,16 @@ div.main{
   background-color: orange;
   height:80vh;
 }
-
+.mainpicture{
+  width:100%
+}
+.maintext{
+  width:60vw;
+}
+.mrbrainythegame{
+  margin-left: 2.5vw;
+  width:30vw;
+}
 /* Dropdown Button */
 .dropbtn {
   background-color:grey;
