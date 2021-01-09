@@ -1,55 +1,3 @@
-.BNNlogo{
-  height: 20px;
-  padding-left: 4vw;
-  padding-top: 2vh;
-}
-
-nav {
-  background-color: grey;
-  margin:0;
-}
-html{
-  margin:0;
-}
-body{
-  margin:0;
-}
-div.main{
-
-  margin: 0px 10vw;
-}
-.h1-titel{
-  font-size:3.5vw;
-}
-.some-page-wrapper{
-  margin-left: 10vw;
-}
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-.orange{
-  background-color: orange;
-  height:80vh;
-}
-.mainpicture{
-  width:100%
-}
-.maintext{
-  width:60vw;
-}
-.mrbrainythegame{
-  margin-left: 2.5vw;
-  width:30vw;
-}
 /* Dropdown Button */
 .dropbtn {
   background-color:grey;
@@ -91,4 +39,152 @@ div.main{
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color:black;
+.dropdown:hover .dropbtn {background-color:black;}
+
+  .BNNlogo{
+    min-height: 20px;
+    height:20px;
+    padding-left: 4vw;
+    padding-top: 2vh;
+  }
+
+  nav {
+    background-color: grey;
+    margin:0;
+  }
+
+  body{
+    margin:0;
+  }
+  body::after {
+    content: "";
+    background-image: url('/Users/ruben/Desktop/CMD IJ1 /Blok 2/PRWD/Code/WhatsApp Image 2021-01-09 at 15.32.20.jpeg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 219px) and (max-device-width : 480px) {
+/* Styles */
+  .column1{
+    display: none;
+  }
+  .mainpicture{
+    display:none;
+  }
+  .some-page-wrapper{
+    margin-left: 7vw;
+    margin-right: 7vw;
+  }
+  .h1-titel{
+    color:blue;
+    font-size: 7rem;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+  }
+  .h2-text{
+    font-size: 5rem;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .h3-text{
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .h3-text span{
+    color: blue;
+  }
+  .startgamebutton{
+    border-style: solid;
+    border-width: 10px;
+    border-color: red;
+    background-color: pink;
+    width: 91%;
+    min-height: 30px;
+    margin-left: 0px;
+    position: absolute;
+    bottom:3vh;
+    margin-left: -3vw;
+  }
+  .h1-startgame{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+  }
+  .startgamelink{
+    text-decoration: none;
+    color: white
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 480px) and (max-device-width : 1024px) {
+/* Styles */
+
+}
+/* PC (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 1025px) and (max-device-width : 3600px) {
+/* Styles */
+
+html{
+  margin:0;
+}
+
+.h1-titel{
+  font-size:3.5vw;
+}
+.some-page-wrapper{
+  margin-left: 10vw;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.column {
+  display: inline-flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex:0.5;
+  flex-grow: 3;
+  margin-right: 10vw;
+  padding-left: 1vw;
+}
+.column1 {
+  display: inline-flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex:0.5;
+  width:30vw;
+  flex-shrink: 3;
+}
+.orange{
+  background-color: orange;
+  height:80vh;
+}
+.mainpicture{
+  width:100%
+}
+.maintext{
+  width:30vw;
+}
+.the-game{
+  width:30vw;
+}
+.mrbrainythegame{
+width:30vw;
+}
+}
