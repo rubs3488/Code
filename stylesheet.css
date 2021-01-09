@@ -1,3 +1,7 @@
+#internetmaintext{
+  font-size: 2rem;
+}
+
 /* Dropdown Button */
 .dropbtn {
   background-color:grey;
@@ -59,7 +63,7 @@
   body::after {
     content: "";
     background-image: url('/Users/ruben/Desktop/CMD IJ1 /Blok 2/PRWD/Code/WhatsApp Image 2021-01-09 at 15.32.20.jpeg');
-    opacity: 0.5;
+    opacity: 0.4;
     top: 0;
     left: 0;
     bottom: 0;
@@ -132,11 +136,77 @@
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 480px) and (max-device-width : 1024px) {
 /* Styles */
-
+  .column1{
+    display: none;
+  }
+  .mainpicture{
+    display:none;
+  }
+  .some-page-wrapper{
+    margin-left: 12vw;
+    margin-right: 12vw;
+  }
+  .imgplaceholder{
+    border-style: solid;
+    border-color: black;
+    height:20vh;
+    width:45vw;
+    flex:none;
+    float: right;
+  }
+  .h1-titel{
+    color:blue;
+    font-size: 4rem;
+    font-style: normal;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+  }
+  .h2-text{
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .h3-text{
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+  }
+  .h3-text span{
+    color: blue;
+  }
+  .startgamebutton{
+    border-style: solid;
+    border-width: 10px;
+    border-color: red;
+    background-color: pink;
+    width: 83%;
+    min-height: 30px;
+    margin-left: 0px;
+    position: absolute;
+    bottom:3vh;
+    margin-left: -3vw;
+  }
+  .h1-startgame{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+  }
+  .startgamelink{
+    text-decoration: none;
+    color: white
+  }
 }
 /* PC (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 1025px) and (max-device-width : 3600px) {
 /* Styles */
+.startgamebutton{
+  display:none;
+}
 
 html{
   margin:0;
